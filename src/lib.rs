@@ -35,13 +35,12 @@
 mod embedded_hal;
 pub mod filter;
 mod frame;
-mod id;
 mod interrupt;
 
 #[allow(clippy::all)] // generated code
 mod pac;
 
-pub use id::{ExtendedId, Id, StandardId};
+pub use embedded_can_04::{ExtendedId, Id, StandardId};
 
 pub use crate::frame::{Data, Frame, FramePriority};
 pub use crate::interrupt::{Interrupt, Interrupts};

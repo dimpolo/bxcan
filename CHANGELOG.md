@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-No changes.
+### Other Changes
+
+* use `StandardId`, `ExtendedId` and `Id` from embedded-can instead of implementing our own
 
 ## [0.8.0 - 2024-09-17](https://github.com/stm32-rs/bxcan/releases/tag/v0.8.0)
 
